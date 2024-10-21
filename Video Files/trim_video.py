@@ -1,8 +1,8 @@
 import os
 from moviepy.video.io.VideoFileClip import VideoFileClip
-from trim_videos_path_with_duration import path_duration
+from trim_videos_time import path_duration
 
-TRIMMED_FOLDER = 'trimmed files'
+TRIMMED_FOLDER = 'Video Files/Trimmed Files'
 
 def trim_video(video_path, start_time, end_time):
     if not os.path.exists(video_path):

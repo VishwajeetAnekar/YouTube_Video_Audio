@@ -1,8 +1,8 @@
 from moviepy.audio.io.AudioFileClip import AudioFileClip
 import os
-from trim_mp3_url import paths 
+from trim_mp3_path import paths 
 
-output_folder = 'trimmed_songs_tune'
+output_folder = 'Audio Files/Trimmed Songs'
 os.makedirs(output_folder, exist_ok=True)
 
 for file_path, start_time, end_time in paths:
